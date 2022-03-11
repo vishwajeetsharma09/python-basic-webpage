@@ -1,0 +1,16 @@
+from flask import Flask, render_template
+
+app = Flask(__name__)
+
+
+student =[{
+	"regno":2000031822,
+	"name":"vishwajeetshrama",
+	"coure":"pfsd"
+},
+{
+regno:20000318223,
+	name:"vishwajeetshrama",
+	coure:"cns"	
+}
+]
